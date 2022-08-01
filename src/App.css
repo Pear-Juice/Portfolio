@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  height: 60px;
+  background-color: #242424;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.HeaderItem {
+  font-family: 'Comfortaa', cursive;
+  color: #d4d4d4;
+  align-self: center;
+  margin: 10px;
+}
+
+.Background {
+  display: flex;
+  flex-grow: 1;
+  background-image: url("Photos/Backgrounds/jelly.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: cover;
+  
+}
+
+.MainPanelTitleText {
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  font-size: 40px;
+  color: #d4d4d4;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.ProfilePicture {
+  align-self: center;
+  width: 300px;
+  height: 200px;
+  background-image: url("Photos/Profiles/Mountain Bike.jpg");
+  background-color: #404040;
+  background-size: cover;
+
+  border-radius: 5px;
+}
+
+.TrampolinePicture {
+  align-self: center;
+  width: 300px;
+  height: 400px;
+  background-image: url("Photos/Profiles/Trampoline.JPG");
+  background-color: #404040;
+  background-size: cover;
+
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.SkiingPicture {
+  align-self: center;
+  width: 300px;
+  height: 200px;
+  background-image: url("Photos/Profiles/Skiing.jpg");
+  background-color: #404040;
+  background-size: cover;
+
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.AboutPanel {
+  display: flex;
+  background-color: rgba(51, 50, 50, .3);
+
+  width: 40%;
+  margin: 50px;
+  border-width: 5px;
+  border-radius: 5px;
+  padding: 50px;
+
+  backdrop-filter: blur(7px);
+
+  flex-direction: column;
+}
+
+.EndeavorContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px;
+}
+
+.Endeavor {
+  background-color: rgba(51, 50, 50, .3);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+
+  border-width: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.EndeavorBody {
+  display: flex;
+  background-color: rgba(51, 50, 50, .3);
+
+}
+
+.EndeavorTitleText {
+  font-family: 'Comfortaa', cursive;
+  display: flex;
+  font-size: 40px;
+  color: #d4d4d4;
+  justify-content: center;
+  width: 100%;
+}
+
+.EndeavorItemThumb {
+  display: flex;
+  object-fit: contain;
+  width: 40%;
+  border-radius: 15px;
+}
+
+.EndeavorContentThumbLeftPanel {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.EndeavorItemLink {
+  color: #d4d4d4;
+  background-color: #1f1f1f;
+
+  margin: 5px;
+  padding: 5px;
+
+  border: 4px;
+  border-radius: 4px;
+
+  font-family: 'Comfortaa', cursive;
+  font-size: 19px;
+
+  justify-content: center;
+}
+
+.EndeavorItemLink:hover {
+  color: #d4d4d4;
+  background-color: #1A1A1AFF;
+
+  border: 4px;
+  border-radius: 4px;
+
+  font-family: 'Comfortaa', cursive;
+  font-size: 19px;
+}
+
+.EndeavorDivider {
+  display: flex;
+  background-color: #424242;
+  height: 1px;
+  width: 25%;
+  margin: 10px 0 10px 0;
+}
+
+.Footer {
+
+}
+
+.BodyText {
+  font-family: 'Comfortaa', cursive;
+  font-size: 19px;
+  color: #d4d4d4;
+  margin: 5px;
+}
