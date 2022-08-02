@@ -51,7 +51,7 @@ function App() {
 
                                 link1={"https://github.com/Pear-Juice/Space-V3"}
                                 linkName1={"GitHub"}
-                                download={require("./Project Builds/Space V3.zip")}
+                                // download={require("./Project Builds/Space V3.zip")}
                                 usedSources={[
                                     "GitHub: SebLague/Solar-System",
                                     "GitHub: JimmyCushnie/Noisy-Nodes",
@@ -93,7 +93,7 @@ function App() {
                                 usedEngine={"Processing"}
                                 link1={"https://github.com/Pear-Juice/MarchingSquares"}
                                 linkName1={"GitHub"}
-                                download={require("./Project Builds/MarchingSquares.zip")}
+                                // download={require("./Project Builds/MarchingSquares.zip")}
                                 usedSources={[
                                     "YouTube: The Coding Train, Coding in the Cabana 5: Marching Squares"
                                 ]}
@@ -105,7 +105,7 @@ function App() {
                                 description={"The goal of this project was to create a creature using procedural animation. One of the biggest challenges was getting the creature to rotate towards the wall"}
                                 usedLanguage={"C#"}
                                 usedEngine={"Unity"}
-                                download={require("./Project Builds/Spider.zip")}
+                                // download={require("./Project Builds/Spider.zip")}
                                 link1={"https://github.com/Pear-Juice/Spider"}
                                 linkName1={"GitHub"}
                                 usedSources={[
